@@ -1,0 +1,26 @@
+.btn {
+    margin-top: 20px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding: 0.2rem 2.3rem;
+    font-weight: 500;
+    border: transparent;
+    border-width: 2px;
+    border-radius: 20px;
+    /*rgba(227, 210, 210, 0.45);*/
+}
+
+
+
+.btn:hover{
+    background: linear-gradient(283deg, rgb(5, 241, 255) 5%, rgba(5, 178, 255, 0.25) 100%);
+    transition: all 150ms ease-in-out 0s;
+    opacity: 1;
+}
+
+.text {
+    padding: 5px;
+    font-family: "Nunito";
+}
+
