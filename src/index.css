@@ -13,12 +13,23 @@
   src: url("../public/Nunito-Bold.ttf");
 }
 
+@font-face {
+  font-family: "NunitoSemiBold";
+  src: url("../public/Nunito-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: "NunitoItalic";
+  src: url("../public/Nunito-LightItalic.ttf");
+}
+
 body {
   max-width: 800px;
   justify-content: center;
   background-color: #001F3F;
   color: white;
   margin-left: 30%;
+  font-family: "NunitoSemiBold";
 }
 
 
@@ -27,6 +38,18 @@ body {
   height: 2px;
   background-color: #045491; /* dejarlo en este color o ponerlo en negro*/
   margin-top: 100px;
+}
+
+h2 {
+  margin-left: 38px;
+  font-family: "Nunito";
+}
+
+h3 {
+  margin-left: 55px;
+  margin-top: 50px;
+  margin-bottom: -10px;
+  font-family: "Nunito";
 }
 
 @media (max-width: 1000px) {

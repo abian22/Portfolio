@@ -13,7 +13,7 @@ export default function Header() {
         <div>
           <ul>
             {headerOptions.map((option, index) => {
-              return <li key={index}>{option}</li>;
+              return <li className="headerli" key={index}>{option}</li>;
             })}
           </ul>
         </div>

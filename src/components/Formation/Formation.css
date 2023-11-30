@@ -1,0 +1,29 @@
+.liFormation{
+    list-style: none;
+}
+
+.pointList{
+    background: linear-gradient(283deg, rgb(5, 241, 255) 5%, rgba(5, 178, 255, 0.25) 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+    margin-right: 8px;
+    margin-top: 20px;
+    display: inline-block;
+    padding: 2px;
+}
+
+h4{
+    font-family: "NunitoSemiBold";
+    margin-bottom: 10px;
+    max-width: 200px;
+}
+
+p{
+    font-family: "NunitoItalic";
+    line-height: 12px;
+    font-size: 13px;
+    color: #d3d3d3;
+}
+
+
+

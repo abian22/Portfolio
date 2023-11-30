@@ -8,7 +8,7 @@
     display: flex;
   }
 
-  li{
+  .headerli{
     display: inline;
     padding-right: 2rem;
     cursor: pointer;
@@ -17,7 +17,7 @@
   }
 
   
-  li:after {
+  .headerli:after {
     content: "";
     position: absolute;
     background: linear-gradient(283deg, rgb(5, 241, 255) 5%, rgba(5, 178, 255, 0.25) 100%);
@@ -28,11 +28,11 @@
     transition: width 0.3s;
   }
   
-  li:hover:after {
+  .headerli:hover:after {
     width: 68%;
   }
 
-  li:hover{
+  .headerli:hover{
     font-family: "PoppinsBold";
   }
 

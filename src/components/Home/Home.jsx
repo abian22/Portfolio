@@ -26,11 +26,14 @@ export default function AboutMe() {
           </h1>
           <section className="btnContainer">
             <Button className="cv" image={cv} text={"Mi CV"} />
+            <a href="https://www.linkedin.com/in/abi%C3%A1n-camejo-d%C3%ADaz-264761229/">
             <Button
               className="linkedin"
               image={linkedin}
               text={"Mi Linkedin"}
             />
+
+            </a>
           </section>
         </div>
       </div>

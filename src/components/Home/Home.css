@@ -8,7 +8,9 @@
     background-clip: padding-box, border-box;
    
 }
-
+a{
+   text-decoration: none;
+}
 .aboutMeContainer {
     margin-top: 100px;
     display: flex;
