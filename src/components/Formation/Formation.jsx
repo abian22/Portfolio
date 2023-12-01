@@ -3,7 +3,7 @@ import "./Formation.css";
 export default function Formation({ formation, center, year }) {
   return (
     <>
-      <ul>
+      <ul className="ulHeader">
         <span className="pointList">&#8226;</span>
         <li className="liFormation">
           <h4>{formation}</h4>
