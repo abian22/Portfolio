@@ -1,0 +1,20 @@
+/* Projects.css */
+
+.projectContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .projectContent {
+    border: solid;
+    margin: 5px;
+    width: 35%;
+    height: 165px;
+  }
+  
+  .projectTitle {
+    margin-top: 10px; /* Ajusta según sea necesario */
+    text-align: center;
+  }
+  

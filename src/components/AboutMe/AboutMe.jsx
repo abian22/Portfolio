@@ -6,12 +6,12 @@ import "./AboutMe.css";
 export default function AboutMe() {
   return (
     <>
-      <section className="aboutMeSection">
+      <section>
         <div className="imageContainer">
           <h2>SOBRE MÍ</h2>
           <img src={pencil} className="imageStyle" />
         </div>
-        <h3>Formación</h3>
+        <h3 className="subTitle">Formación</h3>
         <div className="formationContainer">
           <Formation
             formation={"Bootcamp FullStack"}
@@ -36,8 +36,8 @@ export default function AboutMe() {
             year={"En curso"}
           />
         </div>
+        <Stack />
       </section>
-      <Stack />
     </>
   );
 }

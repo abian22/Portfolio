@@ -1,6 +1,7 @@
 import Header from "./components/Header/Header";
 import Home from "./components/Home/Home";
-import AboutMe from "./components/AboutMe/AboutMe"
+import AboutMe from "./components/AboutMe/AboutMe";
+import Projects from "./components/Projects/Projects";
 import Divider from "./components/Divider/Divider";
 import "./App.css";
 
@@ -9,8 +10,10 @@ function App() {
     <>
       <Header />
       <Home />
-      <Divider/>
+      <Divider />
       <AboutMe />
+      <Divider />
+      <Projects />
     </>
   );
 }

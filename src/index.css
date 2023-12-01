@@ -32,12 +32,25 @@ body {
   font-family: "NunitoSemiBold";
 }
 
+.imageContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.imageStyle{
+  margin-left: 20px;
+  height: 40px;
+  margin-bottom: 10px;
+}
+
 
 .divider {
   width: 100%;
   height: 2px;
   background-color: #045491; /* dejarlo en este color o ponerlo en negro*/
-  margin-top: 100px;
+  margin-top: 20px;
 }
 
 h2 {

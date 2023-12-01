@@ -9,7 +9,6 @@ export default function AboutMe() {
       <div className="aboutMeContainer">
         <div>
         <img className="borderImgStyle"/>
-
         </div>
         <div>
           <h1 >
@@ -32,7 +31,6 @@ export default function AboutMe() {
               image={linkedin}
               text={"Mi Linkedin"}
             />
-
             </a>
           </section>
         </div>

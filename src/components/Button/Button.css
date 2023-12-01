@@ -8,11 +8,8 @@
     border: transparent;
     border-width: 2px;
     border-radius: 20px;
-    cursor:pointer
-    /*rgba(227, 210, 210, 0.45);*/
+    cursor:pointer;
 }
-
-
 
 .btn:hover{
     background: linear-gradient(283deg, rgb(5, 241, 255) 5%, rgba(5, 178, 255, 0.25) 100%);
@@ -23,5 +20,11 @@
 .text {
     padding: 5px;
     font-family: "Nunito";
+}
+
+@media (max-width: 1000px) {
+    .btn {
+        margin-bottom: 40px;
+    }
 }
 
