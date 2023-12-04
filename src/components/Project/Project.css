@@ -1,0 +1,211 @@
+.projectContainer {
+    height: 190px;
+    width: 100%;
+    min-width: 760px;
+    border: solid;
+    display: flex;
+    margin-bottom: 20px;
+    border-color: #0D47A1;
+}
+
+.projectImg{
+    margin-top: 10px;
+    margin-left: 8px;
+    border: solid;
+    border-color: #0D47A1;
+}
+
+.projectImg:hover {
+    border-color: rgb(5, 241, 255);;
+}
+
+.projectContentContainer {
+    width: 100%;
+    text-align: center;
+}
+
+.projectTitle {
+    margin-top: 20px;
+    margin-right: 70px;
+    color: rgb(5, 241, 255);
+}
+
+.projectDescription {
+    padding: 8px;
+    text-align: left;
+    font-family: "NunitoRegular";
+    font-size: 15px;
+    line-height: 15px;
+}
+
+.projectIconContainer {
+    list-style: none;
+    width: 40px;
+    padding: 0;
+    margin-top: 0px;
+    background-color: #0D47A1;
+    height: 190px;
+}
+
+.projectIconList {
+    margin-bottom: 2px;
+
+}
+
+.projectIcon {
+    width: 30px;
+    max-height: 20px;
+    
+}
+
+.webIcon {
+    height: 30px;
+    filter: invert(52%) sepia(100%) saturate(4187%) hue-rotate(198deg) brightness(91%) contrast(98%);
+}
+
+.webButton:hover {
+    border-color: rgb(5, 241, 255); n
+}
+
+.webButton:hover .webText {
+    color: rgb(5, 241, 255);
+  }
+
+.webButton:hover .webIcon {
+    filter: hue-rotate(15deg) saturate(300%) brightness(110%);
+}
+
+
+.webText {
+    margin-left: 10px;
+    margin-bottom: 7px;
+    margin-top: 9px;
+    margin-right: 10px;
+}
+
+.webButton {
+    border: solid;
+    border-color: #0D47A1;
+    bottom: 0px;
+    margin-bottom: 0px;
+    padding: 8px;
+    border-radius: 8px;
+    display: flex;
+    
+}
+
+.codeButton {
+    border: solid;
+    border-color: #0D47A1;;
+    bottom: 0px;
+    margin-bottom: 0px; 
+    padding: 8px;
+    border-radius: 8px;
+    display: flex;
+
+}
+
+.codeIcon {
+    height: 30px;
+    filter: invert(52%) sepia(100%) saturate(4187%) hue-rotate(198deg) brightness(91%) contrast(98%);
+}
+
+.codeButton:hover .codeIcon {
+    filter: hue-rotate(15deg) saturate(300%) brightness(110%);
+  }
+  
+
+.codeText {
+    margin-left: 10px;
+    margin-bottom: 7px;
+    margin-top: 9px;
+    margin-right: 10px;
+}
+
+a {
+    text-decoration: none; 
+    color: white; 
+  }
+
+  .projectImg {
+    height: 165px;
+    width: 212px;
+  }
+
+  .codeButton:hover{
+      border-color: rgb(5, 241, 255);
+
+  }
+
+  .codeButton:hover .codeText {
+    color: rgb(5, 241, 255);
+  }
+
+  @media (max-width: 800px) {
+    .projectContainer {
+        border: solid;
+        display: block;
+        height: 423px;
+        min-width: 0px;
+        max-width: 410px;
+        border-color: #0D47A1;
+        margin-bottom: 40px;
+        margin-left: 10px;
+        justify-content: center;
+
+    }
+
+    .projectDescription {
+        width: auto;
+        border: solid;
+    }
+
+    .projectImg {
+        border: solid;
+        border-color: #0D47A1;;
+        height: 165px;
+        width: 212px;
+        margin-top: 20px;
+      }
+
+      .projectImgContainer {
+        display: flex;
+        justify-content: center;
+      }
+
+      .projectTitle {
+        margin-top: 10px;
+      }
+
+      .projectIconContainer {
+        list-style: none;
+        width: auto;
+        
+        background-color: #0D47A1;
+        height: 30px;
+        align-items: end;
+        bottom: 0px;
+        margin-bottom: 0px;
+        display: flex;
+    }
+
+    .projectIconList {
+        margin-top: 5px;
+    
+    }
+
+    .webButton{
+        margin-bottom: 10px;
+    }
+
+  }
+
+  /* 
+     height: 190px;
+    width: 100%;
+    min-width: 760px;
+    border: solid;
+    display: flex;
+    margin-bottom: 20px;
+    border-color: #0D47A1; */
+ 
