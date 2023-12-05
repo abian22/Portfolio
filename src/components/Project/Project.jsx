@@ -32,18 +32,16 @@ export default function Project({ icon, isFront, demo, code, img }) {
         </div>
         <div className="projectContentContainer">
           <h3 className="projectTitle">Titulo</h3>
-
           <p className="projectDescription">
-            Descripción Descripción Descripción Descripción Descripc
-            Descripción Descripción Descripción Descripción Descripc
-            Descripción Descripción Descripción Descripción Descripcds
-           
+               de frontendmentor nivel avanzad Juego de piedra papel o tijeras, reto de frontendmentor nivel avanzado
+               frontendmementor frontendmentor
           </p>
           <section
             style={{
               display: "flex",
               justifyContent: "space-evenly",
-              marginBottom: "5px",
+              marginTop:"40px",
+              padding:"5px"
             }}
           >
             <a href={demo} target="_blank">
@@ -56,6 +54,9 @@ export default function Project({ icon, isFront, demo, code, img }) {
               </div>
             </a>
           </section>
+        </div>
+        <div>
+          
         </div>
         <ul className="projectIconContainer">
           {icon.map((icon, index) => (

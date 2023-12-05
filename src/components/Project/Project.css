@@ -1,5 +1,5 @@
 .projectContainer {
-    height: 190px;
+    height: auto;
     width: 100%;
     min-width: 760px;
     border: solid;
@@ -9,10 +9,14 @@
 }
 
 .projectImg{
+    display: block;
+    height: 179px;
+    width: 212px;
     margin-top: 10px;
     margin-left: 8px;
     border: solid;
     border-color: #0D47A1;
+  
 }
 
 .projectImg:hover {
@@ -21,13 +25,17 @@
 
 .projectContentContainer {
     width: 100%;
-    text-align: center;
+    text-align: left;
+    /* margin-left: 20px; */
 }
 
 .projectTitle {
     margin-top: 20px;
+    margin-bottom: 30px;
     margin-right: 70px;
     color: rgb(5, 241, 255);
+    display: flex;
+    justify-content: center;
 }
 
 .projectDescription {
@@ -36,19 +44,21 @@
     font-family: "NunitoRegular";
     font-size: 15px;
     line-height: 15px;
+    margin-top: -20px
 }
 
 .projectIconContainer {
     list-style: none;
-    width: 40px;
     padding: 0;
+    margin-bottom: 0px;
     margin-top: 0px;
     background-color: #0D47A1;
-    height: 190px;
+    height: auto;
 }
 
 .projectIconList {
     margin-bottom: 2px;
+    
 
 }
 
@@ -86,12 +96,11 @@
 .webButton {
     border: solid;
     border-color: #0D47A1;
-    bottom: 0px;
-    margin-bottom: 0px;
+
     padding: 8px;
     border-radius: 8px;
     display: flex;
-    
+   
 }
 
 .codeButton {
@@ -127,11 +136,6 @@ a {
     color: white; 
   }
 
-  .projectImg {
-    height: 165px;
-    width: 212px;
-  }
-
   .codeButton:hover{
       border-color: rgb(5, 241, 255);
 
@@ -143,34 +147,37 @@ a {
 
   @media (max-width: 800px) {
     .projectContainer {
-        border: solid;
         display: block;
-        height: 423px;
+        height: auto;
         min-width: 0px;
         max-width: 410px;
         border-color: #0D47A1;
-        margin-bottom: 40px;
-        margin-left: 10px;
-        justify-content: center;
+        margin-left: 80px;
 
     }
 
     .projectDescription {
         width: auto;
-        border: solid;
+        max-width: 350px;
+        text-align: left;
+    }
+
+    .projectTitle {
+        margin-bottom: 10px;
     }
 
     .projectImg {
         border: solid;
         border-color: #0D47A1;;
         height: 165px;
-        width: 212px;
-        margin-top: 20px;
+        width: 405px;
+        margin-left: 0px;
+        margin-top: 0px;
+   
       }
 
       .projectImgContainer {
         display: flex;
-        justify-content: center;
       }
 
       .projectTitle {
@@ -180,22 +187,19 @@ a {
       .projectIconContainer {
         list-style: none;
         width: auto;
-        
         background-color: #0D47A1;
-        height: 30px;
-        align-items: end;
-        bottom: 0px;
-        margin-bottom: 0px;
         display: flex;
+        height: auto;
+        margin: 0px;
     }
 
-    .projectIconList {
+    .projectIcon {
         margin-top: 5px;
-    
     }
+
 
     .webButton{
-        margin-bottom: 10px;
+        margin-bottom: 25px;
     }
 
   }
