@@ -3,6 +3,7 @@ import Home from "./components/Home/Home";
 import AboutMe from "./components/AboutMe/AboutMe";
 import Projects from "./components/Projects/Projects";
 import Divider from "./components/Divider/Divider";
+import Contact from "./components/Contact/Contact";
 import "./App.css";
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <AboutMe />
       <Divider />
       <Projects />
+      <Contact />
     </>
   );
 }

@@ -19,7 +19,7 @@ import "./Projects.css";
 export default function Projects() {
   return (
     <>
-      <section>
+      <section id="Proyectos">
         <div className="imageContainer">
           <h2>PROYECTOS</h2>
           <img src={bag} className="imageStyle" />

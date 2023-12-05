@@ -6,7 +6,7 @@ import "./AboutMe.css";
 export default function AboutMe() {
   return (
     <>
-      <section>
+      <section id="Sobre mí">
         <div className="imageContainer">
           <h2>SOBRE MÍ</h2>
           <img src={pencil} className="imageStyle" />

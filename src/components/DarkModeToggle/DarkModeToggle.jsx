@@ -1,11 +1,12 @@
 import { Paper, Switch } from "@mui/material";
 import { ThemeProvider, createTheme } from "@mui/material/styles";
 import { useState } from "react";
-import useMediaQuery from '@mui/material/useMediaQuery';
+import useMediaQuery from "@mui/material/useMediaQuery";
 
 export default function DarkModeToggle() {
-  const prefersDarkMode = useMediaQuery('(prefers-color-scheme: dark)');
+  const prefersDarkMode = useMediaQuery("(prefers-color-scheme: dark)");
   const [mode, setMode] = useState(prefersDarkMode);
+  const headerElement = document.querySelector("header");
 
   const appTheme = createTheme({
     palette: {
@@ -14,24 +15,21 @@ export default function DarkModeToggle() {
   });
 
   const handleChange = () => {
-    if (mode) {
-      setMode(false);
-    } else {
-      setMode(true);
-    }
+    // Cambiar el estado del modo
+    setMode(!mode);
+
+    document.body.style.backgroundColor = mode ? "#fff" : "#001F3F"; // Cambiar color de fondo
+    headerElement.style.backgroundImage = mode
+      ? "linear-gradient(#fff, #fff), linear-gradient(283deg, rgb(5, 241, 255) 5%, rgba(5, 178, 255, 0.25) 100%)"
+      : "linear-gradient(#001F3F, #001F3F), linear-gradient(283deg, rgb(5, 241, 255) 5%, rgba(5, 178, 255, 0.25) 100%)";
+
+    headerElement.style.color = mode ? "#fff" : "#333";
+    document.body.style.color = mode ? "#000" : "#fff"; // Cambiar color del texto
   };
 
   return (
     <ThemeProvider theme={appTheme}>
-      <Paper elevation={0} sx={{ height: "100vh" }} square>
-        <h1>Dark Mode Tutorial</h1>
-
-        <Switch
-          checked={mode}
-          onChange={handleChange}
-          inputProps={{ "aria-label": "controlled" }}
-        />
-      </Paper>
+      <Switch checked={mode} onChange={handleChange} sx={{ top: "-10px" }} />
     </ThemeProvider>
   );
 }

@@ -6,7 +6,7 @@ import "./Home.css";
 export default function AboutMe() {
   return (
     <>
-      <div className="aboutMeContainer">
+      <div className="aboutMeContainer" id="Inicio">
         <div>
         <img className="borderImgStyle"/>
         </div>
