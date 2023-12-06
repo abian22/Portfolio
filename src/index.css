@@ -1,31 +1,31 @@
 @font-face {
   font-family: "Poppins";
-  src: url("../public/Poppins-Regular.ttf");
+  src: url("/Poppins-Regular.ttf");
 }
 
 @font-face {
   font-family: "Playfair";
-  src: url("../public/PlayfairDisplay-Bold.ttf");
+  src: url("/PlayfairDisplay-Bold.ttf");
 }
 
 @font-face {
   font-family: "Nunito";
-  src: url("../public/Nunito-Bold.ttf");
+  src: url("/Nunito-Bold.ttf");
 }
 
 @font-face {
   font-family: "NunitoSemiBold";
-  src: url("../public/Nunito-SemiBold.ttf");
+  src: url("/Nunito-SemiBold.ttf");
 }
 
 @font-face {
   font-family: "NunitoItalic";
-  src: url("../public/Nunito-LightItalic.ttf");
+  src: url("/Nunito-LightItalic.ttf");
 }
 
 @font-face {
   font-family: "NunitoRegular";
-  src: url("../public/Nunito-Regular.ttf");
+  src: url("/Nunito-Regular.ttf");
 }
 
 body {
