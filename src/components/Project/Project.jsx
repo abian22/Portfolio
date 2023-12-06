@@ -56,7 +56,6 @@ export default function Project({ icon, isFront, demo, code, img }) {
           </section>
         </div>
         <div>
-          
         </div>
         <ul className="projectIconContainer">
           {icon.map((icon, index) => (

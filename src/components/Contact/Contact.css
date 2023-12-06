@@ -1,0 +1,58 @@
+form {
+    flex-direction: column;
+  }
+  
+  .input-field {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+  }
+  
+  .textarea-field {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+    height: 140px;
+    outline: none; 
+    resize: none; 
+  }
+  
+
+  .button-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .submit-button {
+    background-color: #4caaaf;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    height:60px
+  }
+  
+  .submit-button:hover {
+    background-color: #4592a0;
+  }
+
+  .footer {
+    display: flex;
+    width: 100%;
+    max-width: 800px;
+    margin-top: 10px;
+    justify-content: space-evenly;
+    border: double 8px transparent;
+    border-radius: 20px; 
+    background-image: linear-gradient(#001F3F, #001F3F), linear-gradient(283deg, rgb(5, 241, 255) 5%, rgba(5, 178, 255, 0.25) 100%);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+  }

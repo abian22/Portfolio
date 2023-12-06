@@ -1,4 +1,4 @@
-import { Paper, Switch } from "@mui/material";
+import { Switch } from "@mui/material";
 import { ThemeProvider, createTheme } from "@mui/material/styles";
 import { useState } from "react";
 import useMediaQuery from "@mui/material/useMediaQuery";
@@ -15,16 +15,15 @@ export default function DarkModeToggle() {
   });
 
   const handleChange = () => {
-    // Cambiar el estado del modo
     setMode(!mode);
 
-    document.body.style.backgroundColor = mode ? "#fff" : "#001F3F"; // Cambiar color de fondo
+    document.body.style.backgroundColor = mode ? "#fff" : "#001F3F"; 
     headerElement.style.backgroundImage = mode
       ? "linear-gradient(#fff, #fff), linear-gradient(283deg, rgb(5, 241, 255) 5%, rgba(5, 178, 255, 0.25) 100%)"
       : "linear-gradient(#001F3F, #001F3F), linear-gradient(283deg, rgb(5, 241, 255) 5%, rgba(5, 178, 255, 0.25) 100%)";
 
     headerElement.style.color = mode ? "#fff" : "#333";
-    document.body.style.color = mode ? "#000" : "#fff"; // Cambiar color del texto
+    document.body.style.color = mode ? "#000" : "#fff"; 
   };
 
   return (

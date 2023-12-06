@@ -1,6 +1,6 @@
 import Formation from "../Formation/Formation";
 import Stack from "../Stack/Stack";
-import pencil from "../../../public/pencil.svg";
+import pencil from "/pencil.svg";
 import "./AboutMe.css";
 
 export default function AboutMe() {

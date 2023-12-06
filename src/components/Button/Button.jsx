@@ -1,7 +1,8 @@
-import "./Button.css";
+import "./Button.css"
 
 export default function Button({ image, text }) {
-  const backgroundColor = text === "Mi CV" ? "white" : "#0077B5";
+  const backgroundColor = text === "Mi CV" ? "white" : "#0077B5"
+
   return (
     <button
       className="btn"
@@ -10,7 +11,7 @@ export default function Button({ image, text }) {
       }}
     >
       <img src={image} />
-      <text className="text">{text}</text>
+      <span className="text">{text}</span>
     </button>
   );
 }
