@@ -7,7 +7,7 @@ import express from "/express.svg";
 import Project from "../Project/Project";
 import bd from "/bd.jpg";
 import apetit from "/Apetit.jpg";
-import ipTracker from "/IpTracker.jpg"
+import ipTracker from "/ipTracker.jpg"
 import eShop from "/eShop.jpg"
 import sequelize from "/sequelize.svg"
 import react from "/react.svg"

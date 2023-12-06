@@ -1,5 +1,14 @@
+#Contacto {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    align-items: center;
+}
+
 form {
     flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
   
   .input-field {
@@ -44,7 +53,7 @@ form {
     background-color: #4592a0;
   }
 
-  .footer {
+  .footerContainer {
     display: flex;
     width: 100%;
     max-width: 800px;
@@ -55,4 +64,40 @@ form {
     background-image: linear-gradient(#001F3F, #001F3F), linear-gradient(283deg, rgb(5, 241, 255) 5%, rgba(5, 178, 255, 0.25) 100%);
     background-origin: border-box;
     background-clip: padding-box, border-box;
+  }
+
+  .emailContent{
+    display: flex;
+    align-items: center;
+  }
+
+  .emailImg {
+    margin-right: 10px;
+    align-self: flex-start;
+    height: 30px;
+    margin-top: 6px;
+  }
+
+  .phoneContent {
+    display: flex;
+    align-items: center;
+  }
+
+  .phoneImg {
+    margin-right: 10px;
+    align-self: flex-start;
+    height: 30px;
+    margin-top: 6px;
+  }
+
+  @media (max-width: 800px) {
+    .input-field {
+        margin-left: 140px;
+        width: 50%;
+    }
+
+    .textarea-field  {
+        margin-left: 140px;
+        width: 50%;
+    }
   }

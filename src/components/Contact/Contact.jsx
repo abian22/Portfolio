@@ -29,75 +29,39 @@ export default function Contact() {
   };
 
   return (
-    <section
-      id="Contacto"
-      style={{
-        display: "flex",
-        flexDirection: "column",
-        marginTop: "30px",
-        alignItems: "center",
-      }}
-    >
+    <section id="Contacto">
       <div className="imageContainer">
         <h2>CONTACTO</h2>
         <img src={contact} className="imageStyle" />
       </div>
-      <div
-        style={{
-          display: "flex",
-          width: "100%",
-          justifyContent: "center",
-        }}
-      >
-        <form
-          onSubmit={sendEmail}
-          style={{
-            flexDirection: "column",
-            marginTop: "20px",
-            marginBottom: "20px",
-          }}
-        >
-          <input
-            placeholder="Tu nombre..."
-            name="user_name"
-            className="input-field"
-          />
-          <input
-            placeholder="Tu email..."
-            name="user_email"
-            className="input-field"
-          />
-          <textarea name="message" className="textarea-field"></textarea>
-          <div className="button-container">
-            <button className="submit-button">Enviar mensaje</button>
-          </div>
-        </form>
-      </div>
-
-      <div className="footer">
-        <div style={{ display: "flex", alignItems: "center" }}>
+      <form onSubmit={sendEmail}>
+        <input
+          placeholder="Tu nombre..."
+          name="user_name"
+          className="input-field"
+        />
+        <input
+          placeholder="Tu email..."
+          name="user_email"
+          className="input-field"
+        />
+        <textarea name="message" className="textarea-field" />
+        <div className="button-container">
+          <button className="submit-button">Enviar mensaje</button>
+        </div>
+      </form>
+      <div className="footerContainer">
+        <div className="emailContent">
           <img
-            src={email}
-            style={{
-              marginRight: "10px",
-              alignSelf: "flex-start",
-              height: "30px",
-              marginTop: "6px",
-            }}
-          />
+          className="emailImg"
+            src={email}/>
           <p>abian.camejo@gmail.com</p>
         </div>
 
-        <div style={{ display: "flex", alignItems: "center" }}>
+        <div className="phoneContent">
           <img
-            src={phone}
-            style={{
-              marginRight: "10px",
-              alignSelf: "flex-start",
-              height: "30px",
-              marginTop: "6px",
-            }}
-          />
+          className="phoneImg"
+            src={phone}/>
           <p>692 48 04 21</p>
         </div>
       </div>
