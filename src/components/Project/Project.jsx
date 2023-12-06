@@ -1,6 +1,6 @@
-import web from "../../../public/web.svg";
-import tables from "../../../public/tables.svg";
-import github from "../../../public/github.svg";
+import web from "/web.svg";
+import tables from "/tables.svg";
+import github from "/github.svg";
 import "./Project.css";
 
 export default function Project({ icon, isFront, demo, code, img }) {

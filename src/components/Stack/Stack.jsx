@@ -5,7 +5,7 @@ import php from "/php.svg";
 import node from "/node.svg";
 import express from "/express.svg";
 import laravel from "/laravel.svg";
-import mongodb from "//mongodb.svg";
+import mongodb from "/mongodb.svg";
 import mysql from "/mysql.svg";
 import sequelize from "/sequelize.svg";
 import react from "/react.svg";

@@ -1,6 +1,6 @@
 import ReactTyped from "react-typed";
-import cv from "../../../public/cv.svg";
-import linkedin from "../../../public/linkedin.svg";
+import cv from "/cv.svg";
+import linkedin from "/linkedin.svg";
 import Button from "../Button/Button";
 import "./Home.css";
 export default function AboutMe() {
