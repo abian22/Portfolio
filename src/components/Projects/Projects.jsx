@@ -1,18 +1,18 @@
-import bag from "../../../public/bag.svg";
-import html from "../../../public/html.svg";
-import css from "../../../public/css.svg";
-import js from "../../../public/javascript.svg";
-import node from "../../../public/node.svg";
-import express from "../../../public/express.svg";
+import bag from "/bag.svg";
+import html from "/html.svg";
+import css from "/css.svg";
+import js from "/javascript.svg";
+import node from "/node.svg";
+import express from "/express.svg";
 import Project from "../Project/Project";
-import bd from "../../../public/bd.jpg";
-import apetit from "../../../public/Apetit.jpg";
-import ipTracker from "../../../public/IpTracker.jpg"
-import eShop from "../../../public/eShop.jpg"
-import sequelize from "../../../public/sequelize.svg"
-import react from "../../../public/react.svg"
-import materialUi from "../../../public/materialui.svg"
-import piedraPapelTijeras from "../../../public/PiedraPapelTIjeras.jpg"
+import bd from "/bd.jpg";
+import apetit from "/Apetit.jpg";
+import ipTracker from "/IpTracker.jpg"
+import eShop from "/eShop.jpg"
+import sequelize from "/sequelize.svg"
+import react from "/react.svg"
+import materialUi from "/materialui.svg"
+import piedraPapelTijeras from "/PiedraPapelTIjeras.jpg"
 
 export default function Projects() {
   return (
