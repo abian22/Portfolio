@@ -1,9 +1,9 @@
 import ReactTyped from "react-typed";
-import download from "/public/Icons/download.svg";
+import download from "/Icons/download.svg";
 import cvpdf from "/CVFullStack.pdf"
-import linkedin from "/public/Icons/linkedin.svg";
+import linkedin from "/Icons/linkedin.svg";
 import Button from "../Button/Button";
-import photo from "/public/Images/photo.png"
+import photo from "/Images/photo.png"
 import "./Home.css";
 export default function AboutMe() {
   return (

@@ -1,8 +1,8 @@
 import emailjs from "@emailjs/browser";
 import { useRef } from "react";
-import contact from "/public/Icons/contact.svg";
-import email from "/public/Icons/email.svg";
-import phone from "/public/Icons/phone.svg";
+import contact from "/Icons/contact.svg";
+import email from "/Icons/email.svg";
+import phone from "/Icons/phone.svg";
 import "./Contact.css";
 
 export default function Contact() {
