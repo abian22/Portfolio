@@ -1,18 +1,18 @@
-import bag from "/bag.svg";
-import html from "/html.svg";
-import css from "/css.svg";
-import js from "/javascript.svg";
-import node from "/node.svg";
-import express from "/express.svg";
+import bag from "/public/icons/bag.svg";
+import html from "/public/icons/html.svg";
+import css from "/public/icons/css.svg";
+import js from "/public/icons/javascript.svg";
+import node from "/public/icons/node.svg";
+import express from "/public/icons/express.svg";
 import Project from "../Project/Project";
-import bd from "/bd.jpg";
-import apetit from "/apetit.jpg";
-import piedraPapel from "/PiedraPapel.jpg";
-import ipTracker from "/ipTracker.jpg";
-import eShop from "/eShop.jpg";
-import sequelize from "/sequelize.svg";
-import react from "/react.svg";
-import materialUi from "/materialui.svg";
+import bd from "/public/images/bd.jpg";
+import apetit from "/public/images/apetit.jpg";
+import piedraPapel from "/public/images/PiedraPapel.jpg";
+import ipTracker from "/public/images/ipTracker.jpg";
+import eShop from "/public/images/eShop.jpg";
+import sequelize from "/public/icons/sequelize.svg";
+import react from "/public/icons/react.svg";
+import materialUi from "/public/icons/materialui.svg";
 
 export default function Projects() {
   return (
