@@ -9,6 +9,7 @@
     border-width: 2px;
     border-radius: 20px;
     cursor:pointer;
+    color: black;
 }
 
 .btn:hover{

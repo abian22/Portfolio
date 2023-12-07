@@ -50,21 +50,17 @@ export default function Contact() {
           <button className="submit-button">Enviar mensaje</button>
         </div>
       </form>
-      <div className="footerContainer">
+      <section className="footerContainer">
         <div className="emailContent">
-          <img
-          className="emailImg"
-            src={email}/>
+          <img className="emailImg" src={email} />
           <p>abian.camejo@gmail.com</p>
         </div>
 
         <div className="phoneContent">
-          <img
-          className="phoneImg"
-            src={phone}/>
+          <img className="phoneImg" src={phone} />
           <p>692 48 04 21</p>
         </div>
-      </div>
+      </section>
     </section>
   );
 }

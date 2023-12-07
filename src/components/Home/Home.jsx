@@ -3,13 +3,14 @@ import download from "/download.svg";
 import cvpdf from "/CVFullStack.pdf"
 import linkedin from "/linkedin.svg";
 import Button from "../Button/Button";
+import photo from "/photo.png"
 import "./Home.css";
 export default function AboutMe() {
   return (
     <>
       <div className="aboutMeContainer" id="Inicio">
         <div>
-        <img className="borderImgStyle"/>
+        <img src={photo}className="borderImgStyle"/>
         </div>
         <div>
           <h1 >
@@ -26,11 +27,10 @@ export default function AboutMe() {
           </h1>
           <section className="btnContainer">
             <a href={cvpdf} download="Abian CV">
-            <Button className="cv" image={download} text={"Mi CV"} />
+            <Button  image={download} text={"Mi CV"} />
             </a>
             <a href="https://www.linkedin.com/in/abi%C3%A1n-camejo-d%C3%ADaz-264761229/">
             <Button
-              className="linkedin"
               image={linkedin}
               text={"Mi Linkedin"}
             />

@@ -71,12 +71,25 @@ h3 {
   font-family: "Nunito";
 }
 
-@media (max-width: 1000px) {
+button {
+  border: none;
+  background: none;
+  padding: 0;
+  margin: 0;
+  font-family: "NunitoItalic";
+  cursor: pointer;
+  color: #d3d3d3;
+}
+
+@media (max-width: 1450px) {
   body {
-    margin-left: 0%;
+    margin:auto
   }
   .divider{
     margin-left: 5px;
   }
 }
+
+
+
 

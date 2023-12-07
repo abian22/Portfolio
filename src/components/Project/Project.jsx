@@ -3,7 +3,7 @@ import tables from "/tables.svg";
 import github from "/github.svg";
 import "./Project.css";
 
-export default function Project({ icon, isFront, demo, code, img }) {
+export default function Project({ icon, isFront, demo, code, img, title, description }) {
   let button;
 
   if (isFront === true) {
@@ -24,37 +24,30 @@ export default function Project({ icon, isFront, demo, code, img }) {
 
   return (
     <>
-      <div className="projectContainer">
-        <div className="projectImgContainer">
+      <section className="projectContainer">
+        <div className="projectImgContainer" >
           <a href={demo} target="_blank">
             <img className="projectImg" src={img} />
           </a>
         </div>
-        <div className="projectContentContainer">
-          <h3 className="projectTitle">Titulo</h3>
+        <section className="projectContentContainer">
+          <h3 className="projectTitle">{title}</h3>
           <p className="projectDescription">
-               de frontendmentor nivel avanzad Juego de piedra papel o tijeras, reto de frontendmentor nivel avanzado
-               frontendmementor frontendmentor
+            {description}
           </p>
-          <section
-            style={{
-              display: "flex",
-              justifyContent: "space-evenly",
-              marginTop:"40px",
-              padding:"5px"
-            }}
-          >
+          <div
+          className="buttonContainer">
             <a href={demo} target="_blank">
-              <div className="webButton">{button}</div>
+              <button className="webButton">{button}</button>
             </a>
             <a target="_blank" href={code}>
               <div className="codeButton">
                 <img src={github} className="codeIcon" alt="GitHub" />
-                <p className="codeText">Código</p>
+                <button className="codeText">Código</button>
               </div>
             </a>
-          </section>
-        </div>
+          </div>
+        </section>
         <div>
         </div>
         <ul className="projectIconContainer">
@@ -64,7 +57,7 @@ export default function Project({ icon, isFront, demo, code, img }) {
             </li>
           ))}
         </ul>
-      </div>
+      </section>
     </>
   );
 }

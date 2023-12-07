@@ -1,5 +1,4 @@
 import "./Header.css";
-import DarkModeToggle from "../DarkModeToggle/DarkModeToggle"
 import { Link } from "react-scroll";
 
 export default function Header() {
@@ -24,7 +23,6 @@ export default function Header() {
                 </li>
               );
             })}
-            <DarkModeToggle/>
           </ul>
         </div>
       </header>

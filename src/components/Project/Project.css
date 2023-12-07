@@ -6,16 +6,18 @@
     display: flex;
     margin-bottom: 20px;
     border-color: #0D47A1;
+    
 }
 
 .projectImg{
-    display: block;
     height: 179px;
     width: 212px;
-    margin-top: 10px;
     margin-left: 8px;
     border: solid;
     border-color: #0D47A1;
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
   
 }
 
@@ -43,7 +45,9 @@
     font-family: "NunitoRegular";
     font-size: 15px;
     line-height: 15px;
-    margin-top: -20px
+    max-width: 480px;
+    margin-top: -20px;
+    margin-left: 5px;
 }
 
 .projectIconContainer {
@@ -92,13 +96,20 @@
     margin-right: 10px;
 }
 
+.projectImgContainer {
+      display: flex;
+     align-items: center;
+}
+
+
+
 .webButton {
     border: solid;
     border-color: #0D47A1;
-
     padding: 8px;
     border-radius: 8px;
     display: flex;
+    background-color: inherit;
    
 }
 
@@ -110,7 +121,14 @@
     padding: 8px;
     border-radius: 8px;
     display: flex;
+    
+}
 
+.buttonContainer {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    padding: 5px;
 }
 
 .codeIcon {
@@ -127,7 +145,7 @@
     margin-left: 10px;
     margin-bottom: 7px;
     margin-top: 9px;
-    margin-right: 10px;
+    margin-right: 10px; 
 }
 
 a {
@@ -149,10 +167,10 @@ a {
         display: block;
         height: auto;
         min-width: 0px;
-        max-width: 410px;
+        max-width: 310px;
         border-color: #0D47A1;
-        margin-left: 80px;
-
+        margin: auto;
+        margin-bottom: 40px;
     }
 
     .projectDescription {
@@ -162,14 +180,16 @@ a {
     }
 
     .projectTitle {
-        margin-bottom: 10px;
+        margin-left:20px;
+        width: 90%;
+  
     }
 
     .projectImg {
         border: solid;
         border-color: #0D47A1;;
         height: 165px;
-        width: 405px;
+        width: 305px;
         margin-left: 0px;
         margin-top: 0px;
    
@@ -179,10 +199,7 @@ a {
         display: flex;
       }
 
-      .projectTitle {
-        margin-top: 10px;
-      }
-
+    
       .projectIconContainer {
         list-style: none;
         width: auto;
@@ -203,12 +220,4 @@ a {
 
   }
 
-  /* 
-     height: 190px;
-    width: 100%;
-    min-width: 760px;
-    border: solid;
-    display: flex;
-    margin-bottom: 20px;
-    border-color: #0D47A1; */
  

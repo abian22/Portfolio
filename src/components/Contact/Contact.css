@@ -9,6 +9,7 @@ form {
     flex-direction: column;
     margin-top: 20px;
     margin-bottom: 20px;
+    justify-content: center;
   }
   
   .input-field {
@@ -46,8 +47,9 @@ form {
     border-radius: 8px;
     cursor: pointer;
     font-size: 16px;
-    height:60px
-  }
+    height:60px;
+    font-family: "NunitoRegular";
+    }
   
   .submit-button:hover {
     background-color: #4592a0;
@@ -92,12 +94,15 @@ form {
 
   @media (max-width: 800px) {
     .input-field {
-        margin-left: 140px;
-        width: 50%;
+      width: 50%;
     }
 
     .textarea-field  {
-        margin-left: 140px;
+      text-align: center;
         width: 50%;
+    }
+    form {
+      text-align: center; 
+
     }
   }
