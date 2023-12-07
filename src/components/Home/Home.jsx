@@ -1,5 +1,6 @@
 import ReactTyped from "react-typed";
-import cv from "/cv.svg";
+import download from "/download.svg";
+import cvpdf from "/CVFullStack.pdf"
 import linkedin from "/linkedin.svg";
 import Button from "../Button/Button";
 import "./Home.css";
@@ -24,7 +25,9 @@ export default function AboutMe() {
             />
           </h1>
           <section className="btnContainer">
-            <Button className="cv" image={cv} text={"Mi CV"} />
+            <a href={cvpdf} download="Abian CV">
+            <Button className="cv" image={download} text={"Mi CV"} />
+            </a>
             <a href="https://www.linkedin.com/in/abi%C3%A1n-camejo-d%C3%ADaz-264761229/">
             <Button
               className="linkedin"

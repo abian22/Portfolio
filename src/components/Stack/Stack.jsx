@@ -29,7 +29,7 @@ export default function Stack() {
     tailwind,
   ];
   return (
-    <section style={{ marginTop: "-40px" }}>
+    <section className="stack" style={{ marginTop: "-40px", }}>
       <h3 className="subTitle">Stack</h3>
       {icons.map((icon, index) => {
         return (

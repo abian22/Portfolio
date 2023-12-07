@@ -7,6 +7,9 @@ export default function DarkModeToggle() {
   const prefersDarkMode = useMediaQuery("(prefers-color-scheme: dark)");
   const [mode, setMode] = useState(prefersDarkMode);
   const headerElement = document.querySelector("header");
+  const stackElement = document.querySelector(".stack .subTitle");
+  const formationElement = document.querySelector("h3");
+  const aboutMeContainerElement = document.querySelector(".borderImgStyle");
 
   const appTheme = createTheme({
     palette: {
@@ -17,13 +20,17 @@ export default function DarkModeToggle() {
   const handleChange = () => {
     setMode(!mode);
 
-    document.body.style.backgroundColor = mode ? "#fff" : "#001F3F"; 
-    headerElement.style.backgroundImage = mode
-      ? "linear-gradient(#fff, #fff), linear-gradient(283deg, rgb(5, 241, 255) 5%, rgba(5, 178, 255, 0.25) 100%)"
-      : "linear-gradient(#001F3F, #001F3F), linear-gradient(283deg, rgb(5, 241, 255) 5%, rgba(5, 178, 255, 0.25) 100%)";
+    // aboutMeContainerElement.style.borderColor = mode ? "#001F3F" : "#001F3F";
 
-    headerElement.style.color = mode ? "#fff" : "#333";
-    document.body.style.color = mode ? "#000" : "#fff"; 
+    // document.body.style.backgroundColor = mode ? "#c4d2e7" : "#001F3F";
+    // headerElement.style.backgroundColor = mode ? "#001F3F" : "#c4d2e7";
+    // formationElement.style.color = mode ? "#001F3F" : "rgb(5, 241, 255)";
+    // stackElement.style.color = mode ? "#001F3F" : "rgb(5, 241, 255)";
+    // headerElement.style.backgroundImage = mode
+    //   ? ""
+    //   : "linear-gradient(#001F3F, #001F3F), linear-gradient(283deg, rgb(5, 241, 255) 5%, rgba(5, 178, 255, 0.25) 100%)";
+    // headerElement.style.borderColor = mode ? "#001F3F" : "#001F3F";
+    // document.body.style.color = mode ? "#000" : "#fff";
   };
 
   return (

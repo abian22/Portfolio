@@ -6,13 +6,13 @@ import node from "/node.svg";
 import express from "/express.svg";
 import Project from "../Project/Project";
 import bd from "/bd.jpg";
-import apetit from "/Apetit.jpg";
+import apetit from "/apetit.jpg"
+import piedraPapel from "/PiedraPapel.jpg"
 import ipTracker from "/ipTracker.jpg"
 import eShop from "/eShop.jpg"
 import sequelize from "/sequelize.svg"
 import react from "/react.svg"
 import materialUi from "/materialui.svg"
-import piedraPapelTijeras from "/PiedraPapelTIjeras.jpg"
 
 export default function Projects() {
   return (
@@ -52,7 +52,7 @@ export default function Projects() {
         />
             <Project
           isFront={true}
-          img={piedraPapelTijeras}
+          img={piedraPapel}
           demo="https://sweet-quokka-370530.netlify.app/initialPage"
           code="https://github.com/abian22/Rock-Paper-Scissors-game"
           icon={[html, css, js, react]}

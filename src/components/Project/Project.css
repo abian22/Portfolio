@@ -20,7 +20,7 @@
 }
 
 .projectImg:hover {
-    border-color: rgb(5, 241, 255);;
+    border-color: rgb(5, 241, 255);
 }
 
 .projectContentContainer {
@@ -73,7 +73,7 @@
 }
 
 .webButton:hover {
-    border-color: rgb(5, 241, 255); n
+    border-color: rgb(5, 241, 255);
 }
 
 .webButton:hover .webText {
