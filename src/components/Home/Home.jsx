@@ -3,7 +3,7 @@ import download from "/Icons/download.svg";
 import cvpdf from "/CVFullStack.pdf"
 import linkedin from "/Icons/linkedin.svg";
 import Button from "../Button/Button";
-import photo from "/Images/photo.png"
+import photo from "/Images/photo.webp"
 import "./Home.css";
 export default function AboutMe() {
   return (
