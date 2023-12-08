@@ -215,6 +215,8 @@ a {
 
     .projectIcon {
         margin-top: 5px;
+        width: auto;
+        height: auto;
     }
 
 
