@@ -57,6 +57,7 @@
     margin-top: 0px;
     background-color: #0D47A1;
     height: auto;
+    width: auto;
 }
 
 .projectIconList {
@@ -67,12 +68,14 @@
 
 .projectIcon {
     width: 30px;
+    height: auto;
     max-height: 20px;
     
 }
 
 .webIcon {
     height: 30px;
+    width: auto;
     filter: invert(52%) sepia(100%) saturate(4187%) hue-rotate(198deg) brightness(91%) contrast(98%);
 }
 
@@ -133,6 +136,7 @@
 
 .codeIcon {
     height: 30px;
+    width: auto;
     filter: invert(52%) sepia(100%) saturate(4187%) hue-rotate(198deg) brightness(91%) contrast(98%);
 }
 

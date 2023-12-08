@@ -50,7 +50,7 @@ export default function Contact() {
           <button className="submit-button">Enviar mensaje</button>
         </div>
       </form>
-      <section className="footerContainer">
+      <footer className="footerContainer">
         <div className="emailContent">
           <img className="emailImg" src={email} />
           <p>abian.camejo@gmail.com</p>
@@ -60,7 +60,7 @@ export default function Contact() {
           <img className="phoneImg" src={phone} />
           <p>692 48 04 21</p>
         </div>
-      </section>
+      </footer>
     </section>
   );
 }
