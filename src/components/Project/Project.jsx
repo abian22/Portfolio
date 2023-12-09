@@ -17,7 +17,7 @@ export default function Project({ icon, isFront, demo, code, img, title, descrip
     button = (
       <>
         <img src={tables} className="webIcon" alt="Tables" />
-        <p className="webText">Tables</p>
+        <p className="webText">Tablas</p>
       </>
     );
   }
