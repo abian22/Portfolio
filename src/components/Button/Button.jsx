@@ -10,7 +10,7 @@ export default function Button({ image, text }) {
         backgroundColor: backgroundColor,
       }}
     >
-      <img src={image} style={{width:"auto", height:"auto"}} />
+      <img src={image} alt={{image} + "icon"} style={{width:"auto", height:"auto"}} />
       <span className="text">{text}</span>
     </button>
   );

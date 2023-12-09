@@ -9,7 +9,7 @@ export default function AboutMe() {
       <section id="Sobre mí">
         <div className="imageContainer">
           <h2>SOBRE MÍ</h2>
-          <img src={pencil} className="imageStyle" />
+          <img src={pencil} alt="pencil icon" className="imageStyle" />
         </div>
         <h3 className="subTitle">Formación</h3>
         <div className="formationContainer">

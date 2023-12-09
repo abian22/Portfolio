@@ -14,19 +14,19 @@ import tailwind from "/Icons/tailwind.svg";
 import "./Stack.css"
 export default function Stack() {
   const icons = [
-    html,
-    css,
-    js,
-    php,
-    node,
-    express,
-    laravel,
-    mongodb,
-    mysql,
-    sequelize,
-    react,
-    materialui,
-    tailwind,
+    { icon: html, title: "HTML" },
+    { icon: css, title: "CSS" },
+    { icon: js, title: "JavaScript" },
+    { icon: php, title: "PHP" },
+    { icon: node, title: "Node.js" },
+    { icon: express, title: "Express" },
+    { icon: laravel, title: "Laravel" },
+    { icon: mongodb, title: "MongoDB" },
+    { icon: mysql, title: "MySQL" },
+    { icon: sequelize, title: "Sequelize" },
+    { icon: react, title: "React" },
+    { icon: materialui, title: "Material-UI" },
+    { icon: tailwind, title: "Tailwind CSS" },
   ];
   return (
     <section className="stack" style={{ marginTop: "-40px", }}>
@@ -35,8 +35,10 @@ export default function Stack() {
         return (
           <img
           className="iconStyle"
-            src={icon}
+            src={icon.icon}
             key={index}
+            alt={`${icon.title} icon`}
+            title={icon.title}
           />
         );
       })}

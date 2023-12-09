@@ -27,7 +27,7 @@ export default function Project({ icon, isFront, demo, code, img, title, descrip
       <section className="projectContainer">
         <div className="projectImgContainer" >
           <a href={demo} target="_blank">
-            <img className="projectImg" src={img} />
+            <img className="projectImg" src={img} alt={"project" + {img} + "image"}/>
           </a>
         </div>
         <section className="projectContentContainer">
@@ -53,7 +53,7 @@ export default function Project({ icon, isFront, demo, code, img, title, descrip
         <ul className="projectIconContainer">
           {icon.map((icon, index) => (
             <li key={index} className="projectIconList">
-              <img src={icon} className="projectIcon" />
+              <img src={icon.icon} className="projectIcon" alt={{title} + "icon"}  title={icon.title} />
             </li>
           ))}
         </ul>

@@ -10,7 +10,7 @@ export default function AboutMe() {
     <>
       <div className="aboutMeContainer" id="Inicio">
         <div>
-        <img src={photo}className="borderImgStyle"/>
+        <img src={photo} className="borderImgStyle" alt="profile photo"/>
         </div>
         <div>
           <h1 >

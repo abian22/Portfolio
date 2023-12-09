@@ -32,7 +32,7 @@ export default function Contact() {
     <section id="Contacto">
       <div className="imageContainer">
         <h2>CONTACTO</h2>
-        <img src={contact} className="imageStyle" />
+        <img src={contact} alt="contact icon" className="imageStyle" />
       </div>
       <form onSubmit={sendEmail}>
         <input
@@ -52,12 +52,12 @@ export default function Contact() {
       </form>
       <footer className="footerContainer">
         <div className="emailContent">
-          <img className="emailImg" src={email} />
+          <img className="emailImg" src={email} alt="email icon" />
           <p>abian.camejo@gmail.com</p>
         </div>
 
         <div className="phoneContent">
-          <img className="phoneImg" src={phone} />
+          <img className="phoneImg" src={phone} alt="phone icon" />
           <p>692 48 04 21</p>
         </div>
       </footer>

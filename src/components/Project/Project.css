@@ -6,7 +6,6 @@
     display: flex;
     margin-bottom: 20px;
     border-color: #0D47A1;
-    
 }
 
 .projectImg{
@@ -58,12 +57,14 @@
     background-color: #0D47A1;
     height: auto;
     width: auto;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center; 
 }
 
 .projectIconList {
     margin-bottom: 2px;
     
-
 }
 
 .projectIcon {
@@ -100,8 +101,8 @@
 }
 
 .projectImgContainer {
-      display: flex;
-     align-items: center;
+    display: flex;
+    align-items: center;
 }
 
 
@@ -213,7 +214,7 @@ a {
         margin: 0px;
     }
 
-    .projectIcon {b g
+    .projectIcon {
         margin-top: 5px;
         width: auto;
         height: auto;
