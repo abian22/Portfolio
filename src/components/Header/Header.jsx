@@ -1,6 +1,8 @@
 import "./Header.css";
 import { Link } from "react-scroll";
 import { useTranslation } from "react-i18next";
+import uk from "/Icons/ukflag.svg"
+import spain from "/Icons/spainflag.svg"
 import React, { useState } from "react";
 
 export default function Header() {
@@ -46,6 +48,7 @@ export default function Header() {
             justifyContent: "flex-end",
           }}
         >
+          <img src={spain}  style={{height:"20px", marginRight:"20px"}} alt="spain flag"/>
           <button
             onClick={() => changeLanguage("es")}
             style={{
@@ -75,6 +78,7 @@ export default function Header() {
           >
             EN
           </button>
+          <img src={uk} style={{height:"20px", marginLeft:"20px"}} alt="UK flag"/>
         </div>
       </header>
     </>
