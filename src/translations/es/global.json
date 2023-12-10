@@ -34,7 +34,7 @@
     "contact": {
         "contact":"CONTACTO",
         "yourName":"tu nombre...",
-        "yourMessage":" tu mensaje...",
+        "yourMessage":"tu mensaje...",
         "sendMessage":"Enviar mensaje"
     }
 }
