@@ -1,9 +1,20 @@
 import web from "/Icons/web.svg";
 import tables from "/Icons/tables.svg";
 import github from "/Icons/github.svg";
+import { useTranslation } from "react-i18next";
 import "./Project.css";
 
-export default function Project({ icon, isFront, demo, code, img, title, description }) {
+export default function Project({
+  icon,
+  isFront,
+  demo,
+  code,
+  img,
+  title,
+  description,
+}) {
+  const [t, i18n] = useTranslation("global");
+
   let button;
 
   if (isFront === true) {
@@ -17,7 +28,7 @@ export default function Project({ icon, isFront, demo, code, img, title, descrip
     button = (
       <>
         <img src={tables} className="webIcon" alt="Tables" />
-        <p className="webText">Tablas</p>
+        <p className="webText">{t("project.tables")}</p>
       </>
     );
   }
@@ -25,35 +36,40 @@ export default function Project({ icon, isFront, demo, code, img, title, descrip
   return (
     <>
       <section className="projectContainer">
-        <div className="projectImgContainer" >
+        <div className="projectImgContainer">
           <a href={demo} target="_blank">
-            <img className="projectImg" src={img} alt={"project" + {img} + "image"}/>
+            <img
+              className="projectImg"
+              src={img}
+              alt={"project" + { img } + "image"}
+            />
           </a>
         </div>
         <section className="projectContentContainer">
           <h3 className="projectTitle">{title}</h3>
-          <p className="projectDescription">
-            {description}
-          </p>
-          <div
-          className="buttonContainer">
+          <p className="projectDescription">{description}</p>
+          <div className="buttonContainer">
             <a href={demo} target="_blank">
               <button className="webButton">{button}</button>
             </a>
             <a target="_blank" href={code}>
               <div className="codeButton">
                 <img src={github} className="codeIcon" alt="GitHub" />
-                <button className="codeText">Código</button>
+                <button className="codeText">{t("project.code")}</button>
               </div>
             </a>
           </div>
         </section>
-        <div>
-        </div>
+        <div></div>
         <ul className="projectIconContainer">
           {icon.map((icon, index) => (
             <li key={index} className="projectIconList">
-              <img src={icon.icon} className="projectIcon" alt={{title} + "icon"}  title={icon.title} />
+              <img
+                src={icon.icon}
+                className="projectIcon"
+                alt={{ title } + "icon"}
+                title={icon.title}
+              />
             </li>
           ))}
         </ul>

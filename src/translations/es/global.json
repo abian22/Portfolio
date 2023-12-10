@@ -1,0 +1,40 @@
+{
+    "header": {
+        "home":"Inicio",
+        "aboutMe":"Sobre mí",
+        "projects":"Proyectos",
+        "contact":"Contacto"
+    },
+    "home": {
+        "string1":"Hola!. Soy Abián Camejo",
+        "string2":"Soy desarrollador web Fullstack"
+    },
+    "aboutMe": {
+        "aboutMe":"SOBRE MÍ",
+        "education":"Formación",
+        "ongoing":"En curso"
+    },
+    "projects": {
+        "projects":"PROYECTOS",
+        "recipesBackendTitle":"Backend página de recetas.",
+        "recipesBackendDescription":"Implementación del backend para una plataforma de recetas en la cual organizar tus dietas semanales.",
+        "recipesFrontendTitle":"Frontend página de recetas.",
+        "recipesFrontendDescription":"Desarrollo del frontend para una página de recetas. Presentamos las recetas de una manera atractiva y fácil de seguir,para que el usuario no pierda mucho tiempo eligiendo recetas.",
+        "ipTrackerTitle":"IpTracker: frontendmentor reto intermedio",
+        "ipTrackerDescription":"Este proyecto implica la creación de una interfaz de usuario interactiva que permite rastrear la ubicación de una dirección IP.",
+        "eCommerceTitle":"E-Commerce: frontendmentor reto intermedio",
+        "eCommerceDescription": "Construcción de una parte de un comercio electrónico, se puede ver las diferentes fotos del productos y añadir o quitar productos al carrito.",
+        "rockPaperTitle":"Piedra papel tijeras: frontendmentor reto avanzado.",
+        "rockPaperDescription":"Juego interactivo de piedra papel o tijeras que puedes jugar contra el CPU."
+    },
+    "project": {
+        "tables": "Tablas",
+        "code": "Código"
+    },
+    "contact": {
+        "contact":"CONTACTO",
+        "yourName":"tu nombre...",
+        "yourMessage":" tu mensaje...",
+        "sendMessage":"Enviar mensaje"
+    }
+}

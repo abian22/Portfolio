@@ -1,17 +1,20 @@
 import Formation from "../Formation/Formation";
 import Stack from "../Stack/Stack";
 import pencil from "/Icons/pencil.svg";
+import { useTranslation } from "react-i18next";
 import "./AboutMe.css";
 
 export default function AboutMe() {
+  const [t, i18n] = useTranslation("global");
+
   return (
     <>
       <section id="Sobre mí">
         <div className="imageContainer">
-          <h2>SOBRE MÍ</h2>
+          <h2>{t("aboutMe.aboutMe")}</h2>
           <img src={pencil} alt="pencil icon" className="imageStyle" />
         </div>
-        <h3 className="subTitle">Formación</h3>
+        <h3 className="subTitle">{t("aboutMe.education")}</h3>
         <div className="formationContainer">
           <Formation
             formation={"Bootcamp FullStack"}
@@ -33,7 +36,7 @@ export default function AboutMe() {
               "React - The Complete Guide 2023 (incl. React Router & Redux)"
             }
             center={"Udemy"}
-            year={"En curso"}
+            year={t("aboutMe.ongoing")}
           />
         </div>
         <Stack />

@@ -1,7 +1,7 @@
 import "./Button.css"
 
 export default function Button({ image, text }) {
-  const backgroundColor = text === "Mi CV" ? "white" : "#0077B5"
+  const backgroundColor = text === "CV" ? "white" : "#0077B5"
 
   return (
     <button

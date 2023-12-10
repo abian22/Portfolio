@@ -1,0 +1,40 @@
+{
+    "header": {
+        "home":"Home",
+        "aboutMe":"About me",
+        "projects":"Projects",
+        "contact":"Contact"
+    },
+    "home": {
+        "string1":"Hi! I am Abián Camejo.",
+        "string2":"I am a Fullstack developer."
+    },
+    "aboutMe": {
+        "aboutMe":"ABOUT ME",
+        "education":"Education",
+        "ongoing":"ongoing"
+    },
+    "projects": {
+        "projects":"PROJECTS",
+        "recipesBackendTitle":"Recipes page backend.",
+        "recipesBackendDescription":"Backend implementation for a recipe platform where you can organize your weekly diets.",
+        "recipesFrontendTitle":"Recipes page frontend.",
+        "recipesFrontendDescription":"Frontend development for a recipe page. We present recipes in an attractive and easy-to-follow manner, so the user doesn't waste much time choosing recipes.",
+        "ipTrackerTitle":"IpTracker: FrontendMentor intermediate challenge",
+        "ipTrackerDescription":"This project involves the creation of an interactive user interface that allows tracking the location of an IP address.",
+        "eCommerceTitle":"E-Commerce: FrontendMentor Intermediate Challenge",
+        "eCommerceDescription": "Building a section of an e-commerce platform where users can view different product photos and add or remove products from the shopping cart.",
+        "rockPaperTitle":"Rock, Paper, Scissors: FrontendMentor Advanced Challenge.",
+        "rockPaperDescription":"Interactive rock-paper-scissors game that you can play against the CPU."
+    },
+    "project": {
+        "tables": "Tables",
+        "code": "Code"
+    },
+    "contact": {
+        "contact":"CONTACT",
+        "yourName":"your name...",
+        "yourMessage":" your message...",
+        "sendMessage":"Send message"
+    }
+}
