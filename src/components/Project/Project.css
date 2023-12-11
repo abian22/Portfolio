@@ -206,12 +206,7 @@ a {
 
     
       .projectIconContainer {
-        list-style: none;
-        width: auto;
-        background-color: #0D47A1;
-        display: flex;
-        height: auto;
-        margin: 0px;
+        flex-direction: row;
     }
 
     .projectIcon {

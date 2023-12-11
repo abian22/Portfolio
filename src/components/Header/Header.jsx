@@ -1,9 +1,9 @@
 import "./Header.css";
 import { Link } from "react-scroll";
 import { useTranslation } from "react-i18next";
-import uk from "/Icons/ukflag.svg"
-import spain from "/Icons/spainflag.svg"
-import React, { useState } from "react";
+import uk from "/Icons/ukflag.svg";
+import spain from "/Icons/spainflag.svg";
+import { useState } from "react";
 
 export default function Header() {
   const [t, i18n] = useTranslation("global");
@@ -42,20 +42,20 @@ export default function Header() {
           </ul>
         </div>
         <div
+          className="langContainer"
           style={{
             display: "flex",
             alignItems: "center",
             justifyContent: "flex-end",
           }}
         >
-          <img src={spain}  style={{height:"20px", marginRight:"20px"}} alt="spain flag"/>
           <button
+            className="langButton"
             onClick={() => changeLanguage("es")}
             style={{
-              fontFamily:"Nunito",
+              fontFamily: "Nunito",
               fontWeight: selectedLanguage === "es" ? "bold" : "normal",
-              color: selectedLanguage === "es" ? "rgb(5, 241, 255)":""
-
+              color: selectedLanguage === "es" ? "rgb(5, 241, 255)" : "",
             }}
           >
             ES
@@ -69,16 +69,16 @@ export default function Header() {
             }}
           ></div>
           <button
+            className="langButton"
             onClick={() => changeLanguage("en")}
             style={{
-              fontFamily:"Nunito",
+              fontFamily: "Nunito",
               fontWeight: selectedLanguage === "en" ? "bold" : "normal",
-              color: selectedLanguage === "en" ? "rgb(5, 241, 255)":""
+              color: selectedLanguage === "en" ? "rgb(5, 241, 255)" : "",
             }}
           >
             EN
           </button>
-          <img src={uk} style={{height:"20px", marginLeft:"20px"}} alt="UK flag"/>
         </div>
       </header>
     </>
