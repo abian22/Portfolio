@@ -75,7 +75,7 @@ export default function Projects() {
           img={eShop}
           title={t("projects.eCommerceTitle")}
           description={t("projects.eCommerceDescription")}
-          demo="https://sunny-pavlova-6136b7.netlify.app/"
+          demo="https://deft-centaur-514825.netlify.app/"
           code="https://github.com/abian22/e-commerce-product-page"
           icon={[
             {icon: html, title: "HTML" },
