@@ -13,18 +13,21 @@ import eShop from "/Images/eShop.webp";
 import sequelize from "/Icons/sequelize.svg";
 import react from "/Icons/react.svg";
 import materialUi from "/Icons/materialui.svg";
+import tailwind from "/Icons/tailwind.svg";
+import bootstrap from "/Icons/bootstrap.svg";
 import { useTranslation } from "react-i18next";
+import OtherProjects from "../OtherProjects/OtherProjects";
+import "./Projects.css"
 
 export default function Projects() {
   const [t, i18n] = useTranslation("global");
-
 
   return (
     <>
       <section id="Proyectos">
         <div className="imageContainer">
           <h2>{t("projects.projects")}</h2>
-          <img src={bag} className="imageStyle" alt="bag icon"/>
+          <img src={bag} className="imageStyle" alt="bag icon" />
         </div>
 
         <Project
@@ -35,12 +38,11 @@ export default function Projects() {
           demo="https://dbdiagram.io/d/lego-64008414296d97641d84e822"
           code="https://github.com/abian22/real-backend"
           icon={[
-            {icon: js, title: "JavaScript" },
-            {icon: express, title: "Express" },
-            {icon: node, title: "Node.js" },
-            {icon: sequelize, title: "Sequelize" },
+            { icon: js, title: "JavaScript" },
+            { icon: express, title: "Express" },
+            { icon: node, title: "Node.js" },
+            { icon: sequelize, title: "Sequelize" },
           ]}
- 
         />
         <Project
           isFront={true}
@@ -50,11 +52,11 @@ export default function Projects() {
           demo="https://appetitcomite.netlify.app/init"
           code="https://github.com/abian22/Frontend-React-Project-Apetit-Comite"
           icon={[
-            {icon: html, title: "HTML" },
-            {icon: css, title: "CSS" },
-            {icon: js, title: "JavaScript" },
-            {icon: react, title: "React" },
-          ]}          
+            { icon: html, title: "HTML" },
+            { icon: css, title: "CSS" },
+            { icon: js, title: "JavaScript" },
+            { icon: react, title: "React" },
+          ]}
         />
         <Project
           isFront={true}
@@ -64,10 +66,10 @@ export default function Projects() {
           demo="https://sunny-pavlova-6136b7.netlify.app/"
           code="https://github.com/abian22/IP-address-tracker"
           icon={[
-            {icon: html, title: "HTML" },
-            {icon: css, title: "CSS" },
-            {icon: js, title: "JavaScript" },
-            {icon: react, title: "React" },
+            { icon: html, title: "HTML" },
+            { icon: css, title: "CSS" },
+            { icon: js, title: "JavaScript" },
+            { icon: react, title: "React" },
           ]}
         />
         <Project
@@ -78,11 +80,11 @@ export default function Projects() {
           demo="https://deft-centaur-514825.netlify.app/"
           code="https://github.com/abian22/e-commerce-product-page"
           icon={[
-            {icon: html, title: "HTML" },
-            {icon: css, title: "CSS" },
-            {icon: js, title: "JavaScript" },
-            {icon: react, title: "React" },
-            {icon: materialUi, title:"Material-UI"}
+            { icon: html, title: "HTML" },
+            { icon: css, title: "CSS" },
+            { icon: js, title: "JavaScript" },
+            { icon: react, title: "React" },
+            { icon: materialUi, title: "Material-UI" },
           ]}
         />
         <Project
@@ -93,12 +95,101 @@ export default function Projects() {
           demo="https://sweet-quokka-370530.netlify.app/initialPage"
           code="https://github.com/abian22/Rock-Paper-Scissors-game"
           icon={[
-            {icon: html, title: "HTML" },
-            {icon: css, title: "CSS" },
-            {icon: js, title: "JavaScript" },
-            {icon: react, title: "React" },
+            { icon: html, title: "HTML" },
+            { icon: css, title: "CSS" },
+            { icon: js, title: "JavaScript" },
+            { icon: react, title: "React" },
           ]}
         />
+        <section className="otherProjectsContainer">
+          <OtherProjects
+            isFront={true}
+            title={t("projects.RatingComponentTitle")}
+            description={t("projects.RatingComponentDescription")}
+            demo="https://peppy-platypus-f6ea80.netlify.app/"
+            code="https://github.com/abian22/Intractive-rating-component"
+            icons={[
+              { icon: html, title: "HTML" },
+              { icon: css, title: "CSS" },
+              { icon: js, title: "JavaScript" },
+              { icon: react, title: "React" },
+              { icon: materialUi, title: "Material-UI" },
+            ]}
+          />
+          <OtherProjects
+            isFront={true}
+            title={t("projects.AgeCalculatorTitle")}
+            description={t("projects.AgeCalculatorDescription")}
+            demo="https://jazzy-sable-1f02d2.netlify.app/"
+            code="https://github.com/abian22/Age-calculator"
+            icons={[
+              { icon: html, title: "HTML" },
+              { icon: css, title: "CSS" },
+              { icon: js, title: "JavaScript" },
+              { icon: react, title: "React" },
+              { icon: tailwind, title: "Tailwind" },
+            ]}
+          />
+        </section>
+        <section className="otherProjectsContainer">
+          <OtherProjects
+            isFront={true}
+            title={t("projects.TipCalculatorTitle")}
+            description={t("projects.TipCalculatorDescription")}
+            demo="https://elegant-cat-79bbc4.netlify.app/"
+            code="https://github.com/abian22/tip-calculator"
+            icons={[
+              { icon: html, title: "HTML" },
+              { icon: css, title: "CSS" },
+              { icon: js, title: "JavaScript" },
+              { icon: react, title: "React" },
+              { icon: tailwind, title: "Tailwind" },
+            ]}
+          />
+          <OtherProjects
+            isFront={true}
+            title={t("projects.NotificationsPageTitle")}
+            description={t("projects.NotificationsPageDescription")}
+            demo="https://lustrous-taiyaki-f96d10.netlify.app/"
+            code="https://github.com/abian22/Notification-page-frontend-mentor"
+            icons={[
+              { icon: html, title: "HTML" },
+              { icon: css, title: "CSS" },
+              { icon: js, title: "JavaScript" },
+              { icon: react, title: "React" },
+              { icon: bootstrap, title: "Bootstrap" },
+            ]}
+          />
+        </section>
+        <section className="otherProjectsContainer">
+          <OtherProjects
+            isFront={true}
+            title={t("projects.CommentsSectionTitle")}
+            description={t("projects.CommentsSectionDescription")}
+            demo="https://visionary-pony-68063e.netlify.app/"
+            code="https://github.com/abian22/interactive-comment-section"
+            icons={[
+              { icon: html, title: "HTML" },
+              { icon: css, title: "CSS" },
+              { icon: js, title: "JavaScript" },
+              { icon: react, title: "React" },
+              { icon: materialUi, title: "Material-UI" },
+            ]}
+          />
+          <OtherProjects
+            isFront={true}
+            title={t("projects.CountdownTitle")}
+            description={t("projects.CountdownDescription")}
+            demo="https://soft-bubblegum-202fb6.netlify.app/"
+            code="https://github.com/abian22/Launch-countdown-timer"
+            icons={[
+              { icon: html, title: "HTML" },
+              { icon: css, title: "CSS" },
+              { icon: js, title: "JavaScript" },
+              { icon: react, title: "React" },
+            ]}
+          />
+        </section>
       </section>
     </>
   );

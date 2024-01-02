@@ -60,7 +60,6 @@ export default function Project({
             </a>
           </div>
         </section>
-        <div></div>
         <ul className="projectIconContainer">
           {icon.map((icon, index) => (
             <li key={index} className="projectIconList">

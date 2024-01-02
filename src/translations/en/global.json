@@ -25,7 +25,21 @@
         "eCommerceTitle":"E-Commerce: FrontendMentor Intermediate Challenge",
         "eCommerceDescription": "Building a section of an e-commerce platform where users can view different product photos and add or remove products from the shopping cart.",
         "rockPaperTitle":"Rock, Paper, Scissors: FrontendMentor Advanced Challenge.",
-        "rockPaperDescription":"Interactive rock-paper-scissors game that you can play against the CPU."
+        "rockPaperDescription":"Interactive rock-paper-scissors game that you can play against the CPU.",
+        "RatingComponentTitle":"Rating component",
+        "RatingComponentDescription":"Submit the score of a satisfaction questionnaire.",
+        "AgeCalculatorTitle":"Age calculator",
+        "AgeCalculatorDescription":"Calculate how old you are.",
+        "TipCalculatorTitle":"Tip calculator",
+        "TipCalculatorDescription":"Calculate the tip based on the number of people",
+        "NotificationsPageTitle": "Notifications page",
+        "NotificationsPageDescription":"Simulation of the view of a notifications page.",
+        "CommentsSectionTitle":"Comments section",
+        "CommentsSectionDescription":"Simulation of a comments page.",
+        "CountdownTitle":"Countdown",
+        "CountdownDescription": "Countdown with some added styles."
+
+
     },
     "project": {
         "tables": "Tables",
