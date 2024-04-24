@@ -1,0 +1,12 @@
+.otherProjectsContainer {
+    display: flex;
+}
+
+
+@media (max-width: 800px) {
+    .otherProjectsContainer {
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+}

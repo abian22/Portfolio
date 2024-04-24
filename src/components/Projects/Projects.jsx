@@ -14,10 +14,18 @@ import sequelize from "/Icons/sequelize.svg";
 import react from "/Icons/react.svg";
 import materialUi from "/Icons/materialui.svg";
 import tailwind from "/Icons/tailwind.svg";
+import mongodb from "/Icons/mongodb.svg";
 import bootstrap from "/Icons/bootstrap.svg";
 import { useTranslation } from "react-i18next";
 import OtherProjects from "../OtherProjects/OtherProjects";
-import "./Projects.css"
+import fedfodback from "/Images/fedfodback.PNG?url";
+import fedfodfront from "/Images/fedfodfront.PNG?url";
+import MongoProject from "../MongoProject/MongoProject";
+import stripe from "/Icons/stripe.svg";
+import oauth from "/Icons/oauth.svg";
+import scss from "/Icons/scss.svg";
+import i18next from "/Icons/i18next.svg";
+import "./Projects.css";
 
 export default function Projects() {
   const [t, i18n] = useTranslation("global");
@@ -30,6 +38,37 @@ export default function Projects() {
           <img src={bag} className="imageStyle" alt="bag icon" />
         </div>
 
+        <Project
+          isFront={true}
+          img={fedfodfront}
+          title="FedFod front"
+          description={t("projects.fedfodFrontDescription")}
+          demo="https://fedfod.netlify.app/"
+          code="https://github.com/abian22/FedFodFront"
+          icon={[
+            { icon: html, title: "HTML" },
+            { icon: scss, title: "scss" },
+            { icon: js, title: "JavaScript" },
+            { icon: react, title: "React" },
+            { icon: i18next, title: "i18next" },
+          ]}
+        />
+        <MongoProject
+          isFront={false}
+          img={fedfodback}
+          title="FedFod Backend"
+          description={t("projects.fedfodBackDescription")}
+          demo="https://github.com/abian22/FedFodBack"
+          code="https://github.com/abian22/FedFodBack"
+          icon={[
+            { icon: js, title: "JavaScript" },
+            { icon: express, title: "Express" },
+            { icon: node, title: "Node.js" },
+            { icon: mongodb, title: "MongoDB" },
+            { icon: stripe, title: "Stripe" },
+            { icon: oauth, title: "Oauth" },
+          ]}
+        />
         <Project
           isFront={false}
           img={bd}

@@ -16,6 +16,8 @@
     },
     "projects": {
         "projects":"PROYECTOS",
+        "fedfodFrontDescription":"FedFod es una aplicación web que imita en cierto modo la funcionalidad de TikTok pero se enfoca en contenido relacionado con la comida, brindando a los usuarios una plataforma para descubrir, ver y compartir videos cortos sobre cocina y experiencias culinarias.",
+        "fedfodBackDescription":"El backend de FedFod impulsa esta plataforma culinaria, gestionando datos y optimizando algoritmos para garantizar una experiencia de usuario fluida.",
         "recipesBackendTitle":"Backend página de recetas.",
         "recipesBackendDescription":"Implementación del backend para una plataforma de recetas en la cual organizar tus dietas semanales.",
         "recipesFrontendTitle":"Frontend página de recetas.",
