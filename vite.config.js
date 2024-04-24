@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [react()],
   build: {
     rollupOptions: {
-      external: ["/Icons/Oauth.svg"]
+      external: ["/Icons/oauth.svg"]
     }
   }
 })
