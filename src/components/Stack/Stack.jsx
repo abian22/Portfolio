@@ -11,8 +11,6 @@ import sequelize from "/Icons/sequelize.svg";
 import react from "/Icons/react.svg";
 import materialui from "/Icons/materialui.svg";
 import tailwind from "/Icons/tailwind.svg";
-import stripe from "/Icons/stripe.svg"
-import oauth from "/Icons/Oauth.svg"
 import scss from "/Icons/scss.svg"
 import "./Stack.css"
 export default function Stack() {
